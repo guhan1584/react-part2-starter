@@ -4,7 +4,7 @@ import React from "react";
 
 interface TasksContextType {
   tasks: Task[];
-  dispatch: Dispatch<TaskAction>;
+  tasksDispatch: Dispatch<TaskAction>;
 }
 
 const TaskContext = React.createContext<TasksContextType>(
