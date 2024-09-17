@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import LoginStatus from "./LoginStatus";
-import TaskContext from "./contexts/taskContexts";
+import TaskContext from "./tasks/taskContexts";
 
 const NavBar = () => {
   const { tasks } = useContext(TaskContext);
