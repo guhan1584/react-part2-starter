@@ -5,14 +5,12 @@ const LoginStatus = () => {
 
   if (user)
     return (
-      <>
-        <div>
-          <span className="mx-2">{user}</span>
-          <a onClick={() => logout()} href="#">
-            Logout
-          </a>
-        </div>
-      </>
+      <div>
+        <span className="mx-2">{user}</span>
+        <a onClick={() => logout()} href="#">
+          Logout
+        </a>
+      </div>
     );
   return (
     <div>
